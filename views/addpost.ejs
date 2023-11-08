@@ -1,0 +1,40 @@
+
+    <h1 class="text-center">Add a New Blog</h1>
+    <div>
+        
+    <form action="/post" method="post" novalidate enctype="multipart/form-data" class="needs-validation">
+        <div class="mb-3 offset-1">
+          <label for="exampleInputEmail1" class="form-label">Title</label>
+          <input type="text" name="title" class="form-control" id="exampleInputEmail1"  required>
+<div class="valid-feedback">
+      Looks good!
+    </div>
+        </div>
+       
+        </div>
+        <div class="mb-3 offset-1">
+          <div class="input-group mb-3">
+            <input type="file" class="form-control" id="inputGroupFile02" name = "image" >
+            <label class="input-group-text" for="inputGroupFile02">Upload</label>
+          </div>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+       
+          <div class="mb-3 offset-1">
+            <label for="exampleInput4" class="form-label">Description</label>
+            <textarea class="form-control" id="exampleInput4" name="content" rows="3" required></textarea>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+        <div class="mb-3 offset-1">
+            <button type="submit" class="btn btn-success">Submit</button>
+            <button class="btn btn-secondary"><a href="/post" class="link-light link-underline link-underline-opacity-0">All CAMPGROUND</a></button>
+            
+        </div>
+      </form>
+
+        
+    </div>
